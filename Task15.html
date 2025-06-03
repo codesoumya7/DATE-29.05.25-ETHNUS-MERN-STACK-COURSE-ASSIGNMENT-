@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('https://static.vecteezy.com/system/resources/previews/011/635/825/non_2x/abstract-square-interface-modern-background-concept-fingerprint-digital-scanning-visual-security-system-authentication-login-vector.jpg'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .login-box {
+      width: 350px;
+      margin: 100px auto;
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 30px;
+      border-radius: 10px;
+      color: white;
+      text-align: center;
+    }
+
+    .profile-pic {
+      width: 80px;
+      height: 80px;
+      background-color: #e74c3c;
+      border-radius: 50%;
+      margin: 0 auto 20px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-bottom: 25px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid #666;
+      color: white;
+      font-size: 14px;
+    }
+
+    input::placeholder {
+      color: #bbb;
+    }
+
+    .checkbox-container {
+      text-align: left;
+      font-size: 13px;
+      margin: 15px 0;
+    }
+
+    .checkbox-container label {
+      color: white;
+    }
+
+    .checkbox-container a {
+      color: #4ecdc4;
+      text-decoration: underline;
+    }
+
+    .login-btn {
+      width: 100%;
+      padding: 12px;
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .login-btn:hover {
+      background-color: #2ecc71;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="login-box">
+    <div class="profile-pic"></div>
+    <h2>LOGIN WINDOW</h2>
+    <input type="text" placeholder="Your Email Address">
+    <input type="password" placeholder="Your Password">
+    <div class="checkbox-container">
+      <input type="checkbox" id="terms">
+      <label for="terms">Agree with <a href="#">Terms & Conditions</a></label>
+    </div>
+    <button class="login-btn">Login</button>
+  </div>
+
+</body>
+</html>
